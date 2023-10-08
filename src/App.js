@@ -115,13 +115,13 @@ function App() {
       </nav>
 
 <div className="container mt-5">
-<div className="row row-cols-1 row-cols-md-4 g-4 ">
+<div className="row  ">
 
 
 {
   products.map(product=>(
 
-<div className="col">
+<div className="col-lg-3 col-md-4 p-4">
       <div class="card" style={{width: "18rem"}}>     
   <img src={product.image} class="card-img-top" alt="..."/>
   <div class="card-body">
